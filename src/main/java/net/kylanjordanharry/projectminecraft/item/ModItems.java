@@ -14,7 +14,7 @@ public class ModItems
                 DeferredRegister.create(ForgeRegistries.ITEMS, project.MOD_ID);
 
     // this registers the object
- public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
+ public static final RegistryObject<Item> KYLAN = ITEMS.register("kylan",
          () -> new Item(new Item.Properties()));
  public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
          () -> new Item(new Item.Properties()));
