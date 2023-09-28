@@ -14,7 +14,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-
+//Name: Kylan, Harry, and Jordan
+// Description: This is the project class this is our main program that loads everything in minecraft
+// Date: 9/28/2023
 @Mod(project.MOD_ID)
 public class project {
     public static final String MOD_ID = "project";

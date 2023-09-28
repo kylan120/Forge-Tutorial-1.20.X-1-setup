@@ -6,7 +6,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
+// Name: Kylan, Harry, and Jordan
+//Description: This is the mod items class
+//Date: 9/28/2023
 public class ModItems 
 {
     //DeferredRegister is a long list of things, basically when forge registers the items.
