@@ -22,7 +22,8 @@ public class project {
     public static final String MOD_ID = "project";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public project() {
+    public project()
+    {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus); // This will make sure our items are added to the game
         modEventBus.addListener(this::commonSetup);
@@ -41,7 +42,8 @@ public class project {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.KYLAN);
-            event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModItems.JORDAN);
+            event.accept(ModItems.HARRY);
         }
 
     }

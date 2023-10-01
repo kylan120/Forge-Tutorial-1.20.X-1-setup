@@ -18,8 +18,11 @@ public class ModItems
     // this registers the object
  public static final RegistryObject<Item> KYLAN = ITEMS.register("kylan",
          () -> new Item(new Item.Properties()));
- public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
+ public static final RegistryObject<Item> JORDAN = ITEMS.register("jordan",
          () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> HARRY = ITEMS.register("harry",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {
