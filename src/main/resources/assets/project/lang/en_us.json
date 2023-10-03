@@ -1,4 +1,9 @@
 {
   "item.project.kylan": "Kylan",
-  "item.project.sapphire": "Raw Sapphire"
+  "item.project.jordan": "Jordan",
+  "item.project.harry": "Harry",
+
+  "block.project.kylan_block": "Block of Kylan",
+  "block.project.jordan_block": "Block of Jordan",
+  "block.project.harry_block": "Block of Harry"
 }

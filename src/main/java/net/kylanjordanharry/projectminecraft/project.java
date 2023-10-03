@@ -2,6 +2,7 @@ package net.kylanjordanharry.projectminecraft;
 
 import com.mojang.logging.LogUtils;
 import net.kylanjordanharry.projectminecraft.item.ModItems;
+import net.kylanjordanharry.projectminecraft.block.FaceBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ public class project {
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus); // This will make sure our items are added to the game
+        FaceBlocks.register(modEventBus); // This will make sure our blocks are added to the game
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -45,7 +47,12 @@ public class project {
             event.accept(ModItems.JORDAN);
             event.accept(ModItems.HARRY);
         }
-
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
+        {
+            event.accept(FaceBlocks.KYLAN_BLOCK);
+            event.accept(FaceBlocks.JORDAN_BLOCK);
+            event.accept(FaceBlocks.HARRY_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
