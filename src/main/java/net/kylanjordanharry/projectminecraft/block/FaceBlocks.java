@@ -23,11 +23,11 @@ public class FaceBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, project.MOD_ID);
 
     public static final RegistryObject<Block> KYLAN_BLOCK = registerBlock("kylan_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SLIME_BLOCK)));
     public static final RegistryObject<Block> JORDAN_BLOCK = registerBlock("jordan_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STEM)));
     public static final RegistryObject<Block> HARRY_BLOCK = registerBlock("harry_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_STEM)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.HONEY_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

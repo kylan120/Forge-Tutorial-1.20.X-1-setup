@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "project:kylan"
+    }
+  },
+  "result": {
+    "item": "project:kylan_block"
+  }
+}

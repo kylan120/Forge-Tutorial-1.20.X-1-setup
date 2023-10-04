@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "project:harry_block"
+    }
+  ],
+  "result": {
+    "item": "project:harry",
+    "count": 9
+  }
+}
