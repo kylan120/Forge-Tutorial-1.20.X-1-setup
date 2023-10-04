@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#$#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "project:jordan_block"
+    },
+    "$": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "project:jordan_uber"
+  }
+}
