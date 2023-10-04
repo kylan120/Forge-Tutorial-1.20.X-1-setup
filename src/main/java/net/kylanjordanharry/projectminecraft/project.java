@@ -53,6 +53,12 @@ public class project {
             event.accept(FaceBlocks.JORDAN_BLOCK);
             event.accept(FaceBlocks.HARRY_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
+        {
+            event.accept(FaceBlocks.KYLAN_UBER);
+            event.accept(FaceBlocks.JORDAN_UBER);
+            event.accept(FaceBlocks.HARRY_UBER);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

@@ -5,5 +5,9 @@
 
   "block.project.kylan_block": "Block of Kylan",
   "block.project.jordan_block": "Block of Jordan",
-  "block.project.harry_block": "Block of Harry"
+  "block.project.harry_block": "Block of Harry",
+
+  "block.project.kylan_uber": "Uber Kylan",
+  "block.project.jordan_uber": "Uber Jordan",
+  "block.project.harry_uber": "Uber Harry"
 }

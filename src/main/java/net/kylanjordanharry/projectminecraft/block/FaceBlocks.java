@@ -24,9 +24,15 @@ public class FaceBlocks {
 
     public static final RegistryObject<Block> KYLAN_BLOCK = registerBlock("kylan_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SLIME_BLOCK)));
+    public static final RegistryObject<Block> KYLAN_UBER = registerBlock("kylan_uber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SLIME_BLOCK)));
     public static final RegistryObject<Block> JORDAN_BLOCK = registerBlock("jordan_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STEM)));
+    public static final RegistryObject<Block> JORDAN_UBER = registerBlock("jordan_uber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STEM)));
     public static final RegistryObject<Block> HARRY_BLOCK = registerBlock("harry_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.HONEY_BLOCK)));
+    public static final RegistryObject<Block> HARRY_UBER = registerBlock("harry_uber",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.HONEY_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
