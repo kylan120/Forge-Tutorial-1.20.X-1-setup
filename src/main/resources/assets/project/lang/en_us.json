@@ -9,5 +9,9 @@
 
   "block.project.kylan_uber": "Uber Kylan",
   "block.project.jordan_uber": "Uber Jordan",
-  "block.project.harry_uber": "Uber Harry"
+  "block.project.harry_uber": "Uber Harry",
+
+  "block.project.kylan_ore": "Kylan Ore",
+  "block.project.jordan_ore": "Jordan Ore",
+  "block.project.harry_ore": "Harry Ore"
 }

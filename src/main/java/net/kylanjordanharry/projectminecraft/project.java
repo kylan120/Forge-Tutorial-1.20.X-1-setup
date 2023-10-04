@@ -50,8 +50,11 @@ public class project {
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
         {
             event.accept(FaceBlocks.KYLAN_BLOCK);
+            event.accept(FaceBlocks.KYLAN_ORE);
             event.accept(FaceBlocks.JORDAN_BLOCK);
+            event.accept(FaceBlocks.JORDAN_ORE);
             event.accept(FaceBlocks.HARRY_BLOCK);
+            event.accept(FaceBlocks.HARRY_ORE);
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
         {
