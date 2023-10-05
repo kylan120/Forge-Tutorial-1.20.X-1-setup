@@ -62,6 +62,13 @@ public class project {
             event.accept(FaceBlocks.JORDAN_UBER);
             event.accept(FaceBlocks.HARRY_UBER);
         }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT)
+        {
+            event.accept(ModItems.JORDAN_HELMET);
+            event.accept(ModItems.JORDAN_CHESTPLATE);
+            event.accept(ModItems.JORDAN_LEGGINGS);
+            event.accept(ModItems.JORDAN_BOOTS);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
