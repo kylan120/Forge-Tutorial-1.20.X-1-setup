@@ -1,6 +1,7 @@
 package net.kylanjordanharry.projectminecraft.item;
 
 import net.kylanjordanharry.projectminecraft.project;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -21,8 +22,8 @@ public class ModItems
  public static final RegistryObject<Item> JORDAN = ITEMS.register("jordan",
          () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> HARRY = ITEMS.register("harry",
-            () -> new Item(new Item.Properties()));
+public static final RegistryObject<Item> HARRY = ITEMS.register("harry",
+        () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)
     {
