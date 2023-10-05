@@ -10,13 +10,13 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    JORDAN("Jordan", 26, new int[]{ 5, 7, 5, 4 },
+    JORDAN("jordan", 26, new int[]{ 5, 7, 5, 4 },
             25, SoundEvents.ARMOR_EQUIP_GOLD, 1f,
             0f, () -> Ingredient.of(ModItems.JORDAN.get())),
-    Kylan("Kylan", 26, new int[]{ 5, 7, 5, 4 },
+    KYLAN("kylan", 26, new int[]{ 5, 7, 5, 4 },
             25, SoundEvents.ARMOR_EQUIP_GOLD, 1f,
             0f, () -> Ingredient.of(ModItems.KYLAN.get())),
-    Harry("Harry", 26, new int[]{ 5, 7, 5, 4 },
+    HARRY("harry", 26, new int[]{ 5, 7, 5, 4 },
             25, SoundEvents.ARMOR_EQUIP_GOLD, 1f,
             0f, () -> Ingredient.of(ModItems.HARRY.get()));
 
@@ -25,12 +25,12 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final int durabilityMultiplier;
     private final int[] protectionAmounts;
     private final int enchantmentValue;
-    private SoundEvent equipSound;
+    private final SoundEvent equipSound;
     private final Float toughness;
     private final Float knockbackResistance;
     private final Supplier<Ingredient> repairIngredients;
 
-    private final static int[] BASE_DURABILITY = { 11, 15, 16, 13 };
+    private static final int[] BASE_DURABILITY = { 11, 15, 16, 13 };
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue,
                       SoundEvent equipSound, Float toughness, Float knockbackResistance, Supplier<Ingredient> repairIngredients) {
