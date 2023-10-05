@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "jordan",
+  "ingredient": {
+    "item": "minecraft:jordan_ore"
+  },
+  "result": "minecraft:jordan"
+}
