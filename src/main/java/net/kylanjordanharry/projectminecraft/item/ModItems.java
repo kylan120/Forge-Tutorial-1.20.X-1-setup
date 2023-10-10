@@ -16,7 +16,7 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =
                 DeferredRegister.create(ForgeRegistries.ITEMS, project.MOD_ID);
 
-    // this registers the object
+    // this registers the objects
     public static final RegistryObject<Item> KYLAN = ITEMS.register("kylan",
          () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JORDAN = ITEMS.register("jordan",
