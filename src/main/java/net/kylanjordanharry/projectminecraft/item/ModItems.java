@@ -34,8 +34,7 @@ public class ModItems
     public static final RegistryObject<Item> JORDAN_BOOTS = ITEMS.register("jordan_boots",
             () -> new ArmorItem(ModArmorMaterials.JORDAN, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    public static final RegistryObject<Item> KYLANFOOD = ITEMS.register("kylan_food",
-            () -> new Item(new Item.Properties().food(ModFoods.KYLANFOOD)));
+
 
     public static void register(IEventBus eventBus)
     {

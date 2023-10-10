@@ -1,10 +1,8 @@
 package net.kylanjordanharry.projectminecraft;
 import com.mojang.logging.LogUtils;
-import net.kylanjordanharry.projectminecraft.item.ModFoods;
 import net.kylanjordanharry.projectminecraft.item.ModItems;
 import net.kylanjordanharry.projectminecraft.block.FaceBlocks;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -16,8 +14,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-
-import java.util.function.Supplier;
 
 //Name: Kylan, Harry, and Jordan
 // Description: This is the project class this is our main program that loads everything in minecraft
@@ -55,7 +51,7 @@ public class project
             event.accept(ModItems.KYLAN);
             event.accept(ModItems.JORDAN);
             event.accept(ModItems.HARRY);
-            event.accept(ModItems.KYLANFOOD);
+
 
 
         }
