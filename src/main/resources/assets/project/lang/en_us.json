@@ -2,7 +2,7 @@
   "item.project.kylan": "Kylan",
   "item.project.jordan": "Jordan",
   "item.project.harry": "Harry",
-
+  "item.project.kylanfood": "kylan food",
   "block.project.kylan_block": "Block of Kylan",
   "block.project.jordan_block": "Block of Jordan",
   "block.project.harry_block": "Block of Harry",
@@ -18,5 +18,6 @@
   "item.project.jordan_helmet": "Jordan Helmet",
   "item.project.jordan_chestplate": "Jordan Chestplate",
   "item.project.jordan_leggings": "Jordan Leggings",
-  "item.project.jordan_boots": "Jordan Boots"
+  "item.project.jordan_boots": "Jordan Boots",
+  "item.project.kylanfood": "Kylan Food"
 }
