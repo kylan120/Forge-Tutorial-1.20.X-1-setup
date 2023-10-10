@@ -51,6 +51,9 @@ public class project
             event.accept(ModItems.KYLAN);
             event.accept(ModItems.JORDAN);
             event.accept(ModItems.HARRY);
+            event.accept(ModItems.KYLANFOOD);
+            event.accept(ModItems.JORDANFOOD);
+            event.accept((ModItems.HARRYFOOD));
 
 
 
