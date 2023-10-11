@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "harry",
   "ingredient": {
-    "item": "minecraft:harry_ore_nether"
+    "item": "project:harry_ore_nether"
   },
-  "result": "minecraft:harry"
+  "result": "project:harry"
 }

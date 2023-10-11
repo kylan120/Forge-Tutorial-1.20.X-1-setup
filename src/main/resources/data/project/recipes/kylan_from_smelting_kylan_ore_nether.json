@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "kylan",
   "ingredient": {
-    "item": "minecraft:kylan_ore_nether"
+    "item": "project:kylan_ore_nether"
   },
-  "result": "minecraft:kylan"
+  "result": "project:kylan"
 }

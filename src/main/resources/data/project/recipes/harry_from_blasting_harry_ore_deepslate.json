@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "harry",
   "ingredient": {
-    "item": "minecraft:harry_ore_deepslate"
+    "item": "project:harry_ore_deepslate"
   },
-  "result": "minecraft:harry"
+  "result": "project:harry"
 }

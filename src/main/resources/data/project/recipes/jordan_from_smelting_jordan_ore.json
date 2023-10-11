@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "jordan",
   "ingredient": {
-    "item": "minecraft:jordan_ore"
+    "item": "project:jordan_ore"
   },
-  "result": "minecraft:jordan"
+  "result": "project:jordan"
 }
