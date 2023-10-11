@@ -9,6 +9,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
+// Name: Kylan, Jordan, Harry
+// Date: 10/11/2023
+//Description: This is the Mod Armor class that creates armor
 public enum ModArmorMaterials implements ArmorMaterial {
     JORDAN("jordan", 26, new int[]{ 5, 7, 5, 4 },
             25, SoundEvents.ARMOR_EQUIP_GOLD, 1f,
