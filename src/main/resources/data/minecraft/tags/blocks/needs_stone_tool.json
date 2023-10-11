@@ -1,14 +1,17 @@
 {
   "values": [
     "project:kylan_block",
+    "project:kylan_uber",
     "project:kylan_ore",
     "project:kylan_ore_deepslate",
     "project:kylan_ore_nether",
     "project:jordan_block",
+    "project:jordan_uber",
     "project:jordan_ore",
     "project:jordan_ore_deepslate",
     "project:jordan_ore_nether",
     "project:harry_block",
+    "project:harry_uber",
     "project:harry_ore",
     "project:harry_ore_deepslate",
     "project:harry_ore_nether"
