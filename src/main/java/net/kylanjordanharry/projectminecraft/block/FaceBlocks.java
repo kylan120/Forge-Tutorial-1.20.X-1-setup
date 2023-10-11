@@ -18,7 +18,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import java.util.function.Supplier;
 
 // Name: Kylan, Harry, and Jordan
-//Description: This is the mod blocks class
+//Description: This is the face blocks class this will build the object for the blocks with our faces.
 //Date: 10/3/2023
 
 public class FaceBlocks {
