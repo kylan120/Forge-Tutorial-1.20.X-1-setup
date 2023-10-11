@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "project:item/harry_boots"
+    "layer0": "project:item/harry_helmet"
   }
 }
