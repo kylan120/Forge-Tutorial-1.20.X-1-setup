@@ -86,6 +86,14 @@ public class project
             event.accept(ModItems.JORDAN_CHESTPLATE);
             event.accept(ModItems.JORDAN_LEGGINGS);
             event.accept(ModItems.JORDAN_BOOTS);
+            event.accept(ModItems.KYLAN_HELMET);
+            event.accept(ModItems.KYLAN_CHESTPLATE);
+            event.accept(ModItems.KYLAN_LEGGINGS);
+            event.accept(ModItems.KYLAN_BOOTS);
+            event.accept(ModItems.HARRY_HELMET);
+            event.accept(ModItems.HARRY_CHESTPLATE);
+            event.accept(ModItems.HARRY_LEGGINGS);
+            event.accept(ModItems.HARRY_BOOTS);
         }
     }
 
