@@ -44,18 +44,18 @@ public class project
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
 
-
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS)
+        {
+            event.accept(ModItems.KYLANFOOD);
+            event.accept(ModItems.JORDANFOOD);
+            event.accept((ModItems.HARRYFOOD));
+        }
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS)
         {
             event.accept(ModItems.KYLAN);
             event.accept(ModItems.JORDAN);
             event.accept(ModItems.HARRY);
-            event.accept(ModItems.KYLANFOOD);
-            event.accept(ModItems.JORDANFOOD);
-            event.accept((ModItems.HARRYFOOD));
-
-
 
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
