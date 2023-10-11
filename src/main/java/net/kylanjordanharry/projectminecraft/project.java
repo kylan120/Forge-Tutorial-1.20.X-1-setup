@@ -51,10 +51,16 @@ public class project {
         {
             event.accept(FaceBlocks.KYLAN_BLOCK);
             event.accept(FaceBlocks.KYLAN_ORE);
+            event.accept(FaceBlocks.KYLAN_ORE_DEEPSLATE);
+            event.accept(FaceBlocks.KYLAN_ORE_NETHER);
             event.accept(FaceBlocks.JORDAN_BLOCK);
             event.accept(FaceBlocks.JORDAN_ORE);
+            event.accept(FaceBlocks.JORDAN_ORE_DEEPSLATE);
+            event.accept(FaceBlocks.JORDAN_ORE_NETHER);
             event.accept(FaceBlocks.HARRY_BLOCK);
             event.accept(FaceBlocks.HARRY_ORE);
+            event.accept(FaceBlocks.HARRY_ORE_DEEPSLATE);
+            event.accept(FaceBlocks.HARRY_ORE_NETHER);
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
         {

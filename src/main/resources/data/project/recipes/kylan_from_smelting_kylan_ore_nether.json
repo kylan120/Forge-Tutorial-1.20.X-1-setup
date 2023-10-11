@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "kylan",
+  "ingredient": {
+    "item": "minecraft:kylan_ore_nether"
+  },
+  "result": "minecraft:kylan"
+}
