@@ -1,6 +1,6 @@
 {
    "parent": "item/generated",
    "textures": {
-    "layer0": "project:item/harry"
+    "layer0": "project:item/harry_grilled"
   }
 }
