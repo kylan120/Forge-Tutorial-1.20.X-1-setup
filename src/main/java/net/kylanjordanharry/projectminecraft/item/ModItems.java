@@ -16,7 +16,7 @@ public class ModItems
     public static final DeferredRegister<Item> ITEMS =
                 DeferredRegister.create(ForgeRegistries.ITEMS, project.MOD_ID);
 
-    // this registers the object
+    // this registers the objects
     public static final RegistryObject<Item> KYLAN = ITEMS.register("kylan",
          () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> JORDAN = ITEMS.register("jordan",
@@ -33,6 +33,14 @@ public class ModItems
             () -> new ArmorItem(ModArmorMaterials.JORDAN, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> JORDAN_BOOTS = ITEMS.register("jordan_boots",
             () -> new ArmorItem(ModArmorMaterials.JORDAN, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> KYLANFOOD = ITEMS.register("kylan_food",
+            () -> new Item(new Item.Properties().food(ModFoods.KYLANFOOD)));
+    public static final RegistryObject<Item> JORDANFOOD = ITEMS.register("jordan_food",
+            () -> new Item(new Item.Properties().food(ModFoods.JORDANFOOD)));
+    public static final RegistryObject<Item> HARRYFOOD = ITEMS.register("harry_food",
+            () -> new Item(new Item.Properties().food(ModFoods.HARRYFOOD)));
+
 
     public static void register(IEventBus eventBus)
     {
