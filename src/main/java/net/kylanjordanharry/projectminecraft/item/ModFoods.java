@@ -9,9 +9,9 @@ import net.minecraft.world.food.FoodProperties;
 // Description: This is the food items class, this will create the object for our food
 public class ModFoods
 {
+    // This builds the food object and gives out different buffs for each food.
     public static FoodProperties KYLANFOOD = new FoodProperties.Builder()
-            .nutrition(2)
-            .saturationMod(0.2f)
+            .alwaysEat()
             .effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 1), 1.0f)
             .build();
 
