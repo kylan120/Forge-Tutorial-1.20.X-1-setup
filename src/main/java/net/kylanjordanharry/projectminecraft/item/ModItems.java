@@ -34,6 +34,24 @@ public class ModItems
     public static final RegistryObject<Item> JORDAN_BOOTS = ITEMS.register("jordan_boots",
             () -> new ArmorItem(ModArmorMaterials.JORDAN, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> KYLAN_HELMET = ITEMS.register("kylan_helmet",
+            () -> new ArmorItem(ModArmorMaterials.KYLAN, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> KYLAN_CHESTPLATE = ITEMS.register("kylan_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.KYLAN, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> KYLAN_LEGGINGS = ITEMS.register("kylan_leggings",
+            () -> new ArmorItem(ModArmorMaterials.KYLAN, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> KYLAN_BOOTS = ITEMS.register("kylan_boots",
+            () -> new ArmorItem(ModArmorMaterials.KYLAN, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> HARRY_HELMET = ITEMS.register("harry_helmet",
+            () -> new ArmorItem(ModArmorMaterials.HARRY, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> HARRY_CHESTPLATE = ITEMS.register("harry_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.HARRY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> HARRY_LEGGINGS = ITEMS.register("harry_leggings",
+            () -> new ArmorItem(ModArmorMaterials.HARRY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> HARRY_BOOTS = ITEMS.register("harry_boots",
+            () -> new ArmorItem(ModArmorMaterials.HARRY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static final RegistryObject<Item> KYLANFOOD = ITEMS.register("kylan_food",
             () -> new Item(new Item.Properties().food(ModFoods.KYLANFOOD)));
     public static final RegistryObject<Item> JORDANFOOD = ITEMS.register("jordan_food",

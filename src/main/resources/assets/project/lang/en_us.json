@@ -2,7 +2,7 @@
   "item.project.kylan": "Kylan",
   "item.project.jordan": "Jordan",
   "item.project.harry": "Harry",
-  "item.project.kylanfood": "kylan food",
+
   "block.project.kylan_block": "Block of Kylan",
   "block.project.jordan_block": "Block of Jordan",
   "block.project.harry_block": "Block of Harry",
@@ -27,8 +27,19 @@
   "item.project.jordan_chestplate": "Jordan Chestplate",
   "item.project.jordan_leggings": "Jordan Leggings",
   "item.project.jordan_boots": "Jordan Boots",
-  "item.project.kylan_food": "Kylan Food",
-  "item.project.jordan_food": "Jordan Food",
-  "item.project.harry_food": "Harry Food"
+
+  "item.project.kylan_helmet": "Kylan Helmet",
+  "item.project.kylan_chestplate": "Kylan Chestplate",
+  "item.project.kylan_leggings": "Kylan Leggings",
+  "item.project.kylan_boots": "Kylan Boots",
+
+  "item.project.harry_helmet": "Harry Helmet",
+  "item.project.harry_chestplate": "Harry Chestplate",
+  "item.project.harry_leggings": "Harry Leggings",
+  "item.project.harry_boots": "Harry Boots",
+
+  "item.project.kylan_food": "Roasted Kylan",
+  "item.project.jordan_food": "Burnt Jordan",
+  "item.project.harry_food": "Toasted Harry"
 
 }
