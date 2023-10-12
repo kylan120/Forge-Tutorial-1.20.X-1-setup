@@ -12,6 +12,8 @@ import java.util.function.Supplier;
 // Name: Kylan, Jordan, Harry
 // Date: 10/11/2023
 //Description: This is the Mod Armor class that creates armor
+
+// create armor objects
 public enum ModArmorMaterials implements ArmorMaterial {
     JORDAN("jordan", 26, new int[]{ 5, 7, 5, 4 },
             25, SoundEvents.ARMOR_EQUIP_GOLD, 1f,
@@ -35,6 +37,8 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     private static final int[] BASE_DURABILITY = { 11, 15, 16, 13 };
 
+
+    // constructor
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue,
                       SoundEvent equipSound, Float toughness, Float knockbackResistance, Supplier<Ingredient> repairIngredients) {
         this.name = name;
@@ -48,6 +52,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }
 
 
+    // methods to return values
     @Override
     public int getDurabilityForType(ArmorItem.Type pType) {
         return BASE_DURABILITY[pType.ordinal()] * this.durabilityMultiplier;
@@ -55,36 +60,43 @@ public enum ModArmorMaterials implements ArmorMaterial {
 
     @Override
     public int getDefenseForType(ArmorItem.Type pType) {
+
         return this.protectionAmounts[pType.ordinal()];
     }
 
     @Override
     public int getEnchantmentValue() {
+
         return enchantmentValue;
     }
 
     @Override
     public SoundEvent getEquipSound() {
+
         return this.equipSound;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
+
         return this.repairIngredients.get();
     }
 
     @Override
     public String getName() {
+
         return project.MOD_ID + ":" + this.name;
     }
 
     @Override
     public float getToughness() {
+
         return this.toughness;
     }
 
     @Override
     public float getKnockbackResistance() {
+
         return this.knockbackResistance;
     }
 }

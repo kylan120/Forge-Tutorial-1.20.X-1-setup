@@ -25,6 +25,8 @@ public class ModItems
     public static final RegistryObject<Item> HARRY = ITEMS.register("harry",
             () -> new Item(new Item.Properties()));
 
+
+    // register all the armor with proper materials and armor type
     public static final RegistryObject<Item> JORDAN_HELMET = ITEMS.register("jordan_helmet",
                 () -> new ArmorItem(ModArmorMaterials.JORDAN, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> JORDAN_CHESTPLATE = ITEMS.register("jordan_chestplate",

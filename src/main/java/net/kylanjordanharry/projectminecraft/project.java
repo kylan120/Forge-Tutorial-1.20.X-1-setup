@@ -41,7 +41,7 @@ public class project
     }
 
 
-  // This adds the items to creative
+  // This adds the items to creative tabs
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
 
