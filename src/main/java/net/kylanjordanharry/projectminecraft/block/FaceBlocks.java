@@ -1,5 +1,8 @@
 package net.kylanjordanharry.projectminecraft.block;
 
+import net.kylanjordanharry.projectminecraft.block.uber.HarryUber;
+import net.kylanjordanharry.projectminecraft.block.uber.JordanUber;
+import net.kylanjordanharry.projectminecraft.block.uber.KylanUber;
 import net.kylanjordanharry.projectminecraft.project;
 import net.kylanjordanharry.projectminecraft.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -29,7 +32,7 @@ public class FaceBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SLIME_BLOCK)
                     .instrument(NoteBlockInstrument.WITHER_SKELETON)));
     public static final RegistryObject<Block> KYLAN_UBER = registerBlock("kylan_uber",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_SENSOR)
+            () -> new KylanUber(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_SENSOR)
                     .instrument(NoteBlockInstrument.DRAGON)));
     public static final RegistryObject<Block> KYLAN_ORE = registerBlock("kylan_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)
@@ -48,7 +51,7 @@ public class FaceBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.STEM)
                     .instrument(NoteBlockInstrument.WITHER_SKELETON)));
     public static final RegistryObject<Block> JORDAN_UBER = registerBlock("jordan_uber",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_SENSOR)
+            () -> new JordanUber(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_SENSOR)
                     .instrument(NoteBlockInstrument.DRAGON)));
     public static final RegistryObject<Block> JORDAN_ORE = registerBlock("jordan_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)
@@ -67,7 +70,7 @@ public class FaceBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.HONEY_BLOCK)
                     .instrument(NoteBlockInstrument.WITHER_SKELETON)));
     public static final RegistryObject<Block> HARRY_UBER = registerBlock("harry_uber",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_SENSOR)
+            () -> new HarryUber(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.SCULK_SENSOR)
                     .instrument(NoteBlockInstrument.DRAGON)));
     public static final RegistryObject<Block> HARRY_ORE = registerBlock("harry_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.COPPER_ORE)
